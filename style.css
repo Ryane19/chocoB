@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    gap: 5px;
+    margin: 0;
+    margin: 0;
+    background-image: url(assets/img/prise-vue-faible-angle-cacaoyer-feves-cacao-fleurs-elle_181624-25605.webp);
+
+}
+
+
+.nav_bar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+    width: 80vw;
+    height: 200px;
+    margin: 0 auto;
+    background-color: burlywood;
+    gap: 5px;
+}
+.symbole{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 1300px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom ul{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.bottom li{
+    display: flex;
+    margin: 100px;
+}
+.bottom a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.bottom a:hover{
+    color: bisque;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin: 0 auto;
+    height: 500px;
+    background-color: burlywood;
+}
+.colonne1 img{
+    width: 400px;
+}
+.colonne2{
+    width: calc(80vw - 400px);
+    margin: 0 auto;
+    background-color: rgb(156, 122, 97);
+}
+.colonne2 h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.colonne2 h2{
+    margin: 0 auto;
+}
+.colonne2 p{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-size: 17px;
+}
+.odc{
+    font-weight: bold;
+    font-size: 20px;
+}
+.produit{
+    display: grid;
+    width: 80vw;
+    height: 50px;
+    background-color: burlywood;
+    margin: 0 auto;
+    margin-top: 9px;
+    justify-content: center;
+    align-items: center;
+}
+.produit_cacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 9px;
+    gap: 5px;
+    
+}
+.item{
+    margin: 0 auto;
+    font-weight: bold;
+    font-weight: 20px;
+    background-color: rgb(156, 122, 97);
+
+}
+.item img{
+    width: 350px;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    height: 150px;
+    margin: 0 auto;
+    background-color: burlywood;
+    margin-top: 180px;
+    
+}
+.colonne1 ul{
+  margin-left: 70px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+    
+}
+.colonne1 li{
+    display: flex;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    
+    
+}
+.M{
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: large;
+    color: gray;
+}
+.colonnedeux{
+    height: 150px;
+    text-transform: uppercase;
+    color: burlywood;
+    
+}
+.colonnedeux img{
+    display: flex;
+    width: 200px;
+    height:130px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.colonnedeux p{
+    color: black;
+    font-size: 15px;
+    margin-left: 175px;
+}
+.colonne3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.colonne3 img{
+    width: 30px;
+}
+@media screen and (max-width:767px) {
+    img{
+        margin: 0 auto;
+        width: 0 auto;
+    }
+    .bottom{
+        margin: 20px;
+    }
+    .bottom ul{
+        margin: -150px;
+    }
+    .bottom li{
+        margin: 15px;
+    }
+    .symbole{
+        margin: -150px;
+        margin-left: 480px;
+        margin-top: -250px;
+    }
+    .colonne2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    }
+    .colonne2 p{
+        margin:0 auto;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .colonne2 h1{
+        position: absolute;
+        margin: 15px;
+
+    }
+    .odc p{
+        display: none;
+        visibility: hidden;
+        width: 0 auto;
+    }
+    .item{
+        width: 150px;
+    }
+    .item img{
+        width: 150px;
+    }
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+       
+    }
+    .colonnedeux img{
+      display: flex;
+      margin-left: 50px;
+      margin-top: 10px;
+        
+        
+    }
+    .colonne3{
+        display: flex;
+        margin: 30px;
+        margin-left: 125px;
+        margin-top: 15px;
+    }
+    .colonne1 img{
+       width: 400px;
+        
+    }
+    
+}
+
+    
